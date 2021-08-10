@@ -1,0 +1,4 @@
+include ':maps'
+include ':core'
+rootProject.name='eightProject'
+include ':app'
