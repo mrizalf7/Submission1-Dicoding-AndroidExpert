@@ -26,10 +26,6 @@ class DetailMovieActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
 
-
-//        val detailGithub = intent.getParcelableExtra<Github>(EXTRA_DATA)
-//        showDetailGithub(detailGithub)
-
         val detailMovie = intent.getParcelableExtra<Movie>(EXTRA_DATA)
         showDetailMovie(detailMovie)
     }

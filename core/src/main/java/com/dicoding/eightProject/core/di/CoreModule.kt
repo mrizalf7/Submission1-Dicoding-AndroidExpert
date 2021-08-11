@@ -22,7 +22,7 @@ val databaseModule = module {
     single {
         Room.databaseBuilder(
             androidContext(),
-            MovieDatabase::class.java, "Github.db"
+            MovieDatabase::class.java, "Movie.db"
         ).fallbackToDestructiveMigration().build()
     }
 }
